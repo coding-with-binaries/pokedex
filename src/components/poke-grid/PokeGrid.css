@@ -1,0 +1,13 @@
+.pokedex-grid {
+  height: 100%;
+  display: grid;
+  grid-gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.pokedex-grid-loader {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
